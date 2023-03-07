@@ -6,7 +6,7 @@ public class Chef {
 	private int effetPotion = 1;
 	private Village village;
 
-	public Chef(String nom, int force, Village village) {
+	public Chef(String nom, int force, Village village, int effetPotion) {
 		this.nom = nom;
 		this.force = force;
 		this.effetPotion = effetPotion;
