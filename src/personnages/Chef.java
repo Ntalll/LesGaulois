@@ -4,12 +4,12 @@ public class Chef {
 	private String nom;
 	private int force;
 	private int effetPotion = 1;
-	private Village village;
+	private Village village;  
 
 	public Chef(String nom, int force, Village village, int effetPotion) {
 		this.nom = nom;
 		this.force = force;
-		this.effetPotion = effetPotion;  
+		this.effetPotion = effetPotion;         
 		this.village = village;
 	}
 
