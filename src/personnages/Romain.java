@@ -23,8 +23,8 @@ public class Romain {
 			return "Le romain " + nom + " : ";
 		}
 		public void recevoirCoup(int forceCoup) {
-			assert force >0 : "La force doit etre positive";
-			int tempforce=force;
+			assert forceCoup >0 : "La force doit etre positive";
+			int tempforce=forceCoup;
 			force -= forceCoup;
 			if (force > 0) {
 				parler ("Aie");
@@ -33,7 +33,7 @@ public class Romain {
 				parler("J'abandonne...");
 
 			}
-			assert tempforce!=force : "La force d'un romain n'a pas diminué";			
+			assert tempforce!=forceCoup : "La force d'un romain n'a pas diminué";			
 		}
 
 			
