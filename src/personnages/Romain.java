@@ -1,5 +1,5 @@
 package personnages;
-
+import personnages.Equipement;
 public class Romain {
 		private String nom;
 		private int force;
@@ -40,6 +40,8 @@ public class Romain {
 		public static void main(String[] args) {
 			 Romain louis = new Romain("Louis", 6);
 			 louis.parler("Bonjour");
+			 louis.CASQUE;
+			 louis.BOUCLIER;
 			 
 			
 		}
