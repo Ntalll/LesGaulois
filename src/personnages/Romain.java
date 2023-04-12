@@ -3,6 +3,8 @@ import personnages.Equipement;
 public class Romain {
 		private String nom;
 		private int force;
+		private Equipement tab[];
+		int nbEquipement =0;
 		
 		public Romain(String nom, int force) {
 			this.nom = nom;
@@ -35,14 +37,24 @@ public class Romain {
 			}
 			assert tempforce!=forceCoup : "La force d'un romain n'a pas diminué";			
 		}
+		public void sEquiper(Equipement equipement) {
+			if (>1)
+			return ;
+		}
 
 			
 		public static void main(String[] args) {
 			 Romain louis = new Romain("Louis", 6);
 			 louis.parler("Bonjour");
-			 louis.CASQUE;
-			 louis.BOUCLIER;
-			 
+			 System.out.println(Equipement.CASQUE);
+			 System.out.println(Equipement.BOUCLIER);
+			 System.out.println(Equipement.CASQUE.getNom());
+			 System.out.println(("DEbut"));
+			 System.out.println(Equipement.BOUCLIER);
+			 System.out.println(Equipement.BOUCLIER.getNom());
+			 System.out.println(Equipement.CASQUE.toString());
+			 System.out.println(Equipement.CASQUE);
+			 System.out.println(louis.CASQUE);
 			
 		}
 }
